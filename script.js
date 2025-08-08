@@ -63,7 +63,7 @@ function advanceProgress(amount) {
   localStorage.setItem("progress", progress);
   setTimeout(() => {
     showMessage(getRandomMessage());
-  }, 5000);
+  }, 5000); // now it waits 5 seconds before updating
 }
 
 window.onload = () => {
