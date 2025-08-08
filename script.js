@@ -63,7 +63,7 @@ function advanceProgress(amount) {
   localStorage.setItem("progress", progress);
   setTimeout(() => {
     showMessage(getRandomMessage());
-  }, 1000);
+  }, 5000);
 }
 
 window.onload = () => {
